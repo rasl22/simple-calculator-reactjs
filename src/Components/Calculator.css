@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
+.calculator {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 260px;
+    background: rgb(200, 200, 200);
+}
+
+.display input {
+    width: 96%;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px;
+    text-align: right;
+    outline: none;
+    font-weight: 300;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-weight: 400;
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: rgb(231, 229, 229);
+    transition: all 0.3s ease;
+}
+
+.operators {
+    background: #eda357;
+}
+
+.operators:hover {
+    background: #f18519;
+}
+.equal {
+    background: #61c197;
+}
+.equal:hover {
+    background: #1fb976;
+}
+
+.clean {
+    background: #d66b68;
+}
+.clean:hover {
+    background: #d9534f;
+}
